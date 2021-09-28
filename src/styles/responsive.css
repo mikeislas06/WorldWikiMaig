@@ -1,0 +1,59 @@
+@media (max-width: 1024px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    header a {
+        font-size: 1.5rem;
+    }
+
+    .svg-inline--fa.fa-w-16 {
+        width: 30px;
+        height: 30px;
+        color: #fff;
+    }
+}
+
+@media (max-width: 768px) {
+    header form {
+        width: 45%;
+    }
+
+    .country-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .country-container a {
+        font-size: 0.8rem;
+        padding: 8px 0;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 620px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    header form input {
+        width: 40%;
+    }
+
+    .country-container h2 {
+        font-size: 1.2rem;
+    }
+
+    .country-container a {
+        font-size: 1rem;
+        padding: 10px 0;
+        overflow: hidden;
+    }
+
+    .single-country h2 {
+        font-size: 1.2rem;
+    }
+
+    .single-country li {
+        font-size: 1rem;
+    }
+}
